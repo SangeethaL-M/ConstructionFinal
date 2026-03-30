@@ -1,0 +1,1020 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+.overall
+{
+    width:95%;
+    margin: auto;
+}
+body
+{
+    background-color: black;
+}
+.header
+{
+    width:100%;
+   background-color: white;
+   
+}
+.header1
+{
+     display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    font-family: 'Oswald';
+    font-size: 20px;
+   
+}
+.size
+{
+    width: 140px;
+    height: 90px;
+}
+.logo
+{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+.navbar
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navbar a
+{
+    display: inline;
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.btn button
+{
+    background-color: orange;
+    padding: 10px 20px 8px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.btn button>span
+{
+    background-color: white;
+    border-radius:18px ;
+    padding: 5px 10px;
+}
+.left
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn
+{
+    margin-right: 20px;
+}
+
+/*Banner Section*/
+.banner
+{
+    background-image: url('/Assets/Images/cropimg3.png');
+     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/cropimg3.png');
+    width:100%;
+    height: 40vh;
+    text-align: center;
+    justify-content: center;
+  
+}
+.banner h1
+{
+    color:rgb(224, 210, 17);
+    font-family: 'Oswald';
+    font-size: 34px;
+    font-weight: 400;
+    padding:30px;
+    padding-top: 50px;
+}
+.banner p 
+{
+    color:white;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 250;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+/*Space*/
+.space
+{
+    width:100%;
+    height: 10vh;
+    background-color: white;
+   
+}
+
+
+/* Overlapping Tab Section */
+.otab1
+{
+    width:18%;
+    padding:20px;
+    border: 2px solid rgb(186, 112, 2);
+    border-radius: 14px;
+    background: white;
+    text-align: center;
+}
+.otab1 h1
+{
+     color:rgb(224, 210, 17);
+    font-family: 'Inter';
+    font-size: 34px;
+    font-weight: 400;
+    padding:10px;
+}
+.otab1 p 
+{
+    color:black;
+     font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    padding:10px;
+}
+.otabs 
+{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+position: relative;
+bottom: 60px;
+left: 30px;
+}
+
+.story1
+{
+    background-color: white;
+    width:100%;
+}
+/*Story*/
+.story
+{  
+    width:100%;
+    background-color: white;
+    display:flex;
+    gap:1%;
+}
+.scol1 
+{
+    width: 40%;
+    padding: 10px;
+}
+.scol1 h2
+{
+    font-family: 'Oswald';
+    font-size: 36px;
+    font-weight: 400;
+    padding: 20px;
+    
+}
+.scol1 p
+{
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 250;
+    padding: 20px;
+    
+}
+.scol2
+{
+    width:28%;
+}
+.scol2>img
+{
+    width:100%;
+    height:500px;
+}
+.scol3
+{
+    width:30%;
+    padding-top: 8%;
+}
+.scol3>img
+{
+    width:100%;
+    height:300px;
+}
+/*Mission Vission*/
+.mv
+{
+    display : flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:40px;
+}
+.mission
+{
+    background-color: rgb(1, 1, 33);
+    font-family: 'Inter';
+    color: white;
+    text-align: center;
+    width: 40%;
+    border-radius: 15px;
+}
+.mission>img 
+{
+    width: 80px;
+    height:80px;
+    border: 2px solid none;
+    border-radius: 10px;
+
+}
+.mission h2
+{
+    font-size: 32px;
+    padding: 20px;
+}
+.mission p 
+{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+    text-align: left;
+}
+.vission
+{
+    background-color: rgb(186, 112, 2);
+    font-family: 'Inter';
+    color: white;
+    
+    text-align: center;
+    width: 40%;
+     border-radius: 15px;
+}
+.vission>img 
+{
+    width: 80px;
+    height:80px;
+    border: 2px solid none;
+    border-radius: 50px;
+}
+.vission h2
+{
+    font-size: 32px;
+    padding: 20px;
+}
+.vission p 
+{
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+}
+/*Core  Value Section*/
+.core
+{
+    text-align: center;
+    padding: 20px;
+}
+.core h1
+{
+    font-family: 'Oswald';
+    
+    font-size: 36px;
+    font-weight: 400;
+    padding: 20px;
+}
+.value>img
+{
+    width: 80px;
+    height:80px;
+}
+.value h3
+{
+     font-family: 'Inter';
+    
+    font-size: 20px;
+    font-weight: 400;
+    padding: 20px;
+}
+.value p 
+{
+ font-family: 'Inter';
+    
+    font-size: 15px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;;
+}
+.value 
+{ 
+    width:20%;
+    border: 2px solid  ;
+    border-color:rgb(202, 132, 3) ;
+    border-radius: 14px;
+}
+.values
+{
+    display: flex;
+    gap:2%;
+    justify-content: center;
+    align-items: center;
+}
+/*Team*/
+.myteam
+{
+    display: flex;
+  
+    gap:6%;
+    justify-content: center;
+    align-items: center;
+}
+.team1>img 
+{
+    width: 200px;
+    height:200px;
+    border-radius: 100px;
+}
+.team1 h3
+{
+     font-family: 'Inter';
+    
+    font-size: 22px;
+    font-weight: 400;
+    padding: 10px;
+}
+.team1 p 
+{
+ font-family: 'Inter';
+    
+    font-size: 15px;
+    font-weight: 400;
+    
+    text-align: center;
+}
+.team
+{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+.team h1
+{
+     font-family: 'Oswald';
+    
+    font-size: 30px;
+    font-weight: 400;
+    padding: 10px;
+}
+.team p 
+{
+ font-family: 'Oswald';
+    
+    font-size: 20px;
+    font-weight: 300;
+    
+    text-align: center;
+}
+/*Before Footer*/
+
+.beforefoot
+{
+   
+    background-image: url('/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    width:100%;
+    height:60vh;
+   text-align: center;
+    justify-content: center;
+}
+.btn1
+{
+    margin:30px;
+}
+.btn1 button
+{
+    background-color: orange;
+    padding: 14px 18px 8px 14px;
+    border: none;
+    border-radius: 30px;
+}
+.btn1 button>span
+{
+    background-color: white;
+    border-radius:20px ;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+.beforefoot h2
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.beforefoot p
+{
+    padding:20px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 22px;
+}
+
+.listview
+{
+    padding:30px;
+}
+.listview>ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: center;
+    gap:5%;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.listview>ul>li::marker
+{
+    color:orange;
+}
+
+/*White space*/
+
+.blank
+{
+    background-color:white;
+    width:100%;
+    height:8vh;
+
+}
+
+/*Footer Section*/
+
+.logofoot
+{
+    width:350px;
+    height: 230px;
+}
+.foot 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width:100%;
+   background-color:  rgb(4, 4, 49);
+    height: 45vh;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 80px;
+}
+.foot p
+{
+    font-size: 16px;
+    color:whitesmoke;
+    line-height: 40px;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+.foot h4
+{
+    color:whitesmoke;
+     line-height: 40px;
+     font-size: 20px;
+     font-family: 'Oswald';
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.foot1
+{
+    width:30%;
+    margin-bottom: 10px;
+}
+.foot1 p
+{
+    width:100%;
+     line-height: 30px;
+}
+
+/*Media Query*/
+
+/* For Desktop Devices */
+/*------------------------- */
+@media only screen and (min-width: 1440px)
+{
+.logos
+{
+    display: none;
+}
+
+}
+
+/* For Laptop Devices */
+/*------------------------- */
+
+/*Footer Section*/
+@media only screen and (max-width: 1024px)
+{
+  .foot 
+{
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot p
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+.foot h4
+{
+     line-height: 30px;
+     font-size: 14px;
+    padding-bottom: 10px;
+}
+.foot1
+{
+    width:25%;
+    padding-bottom: 5px;
+}
+.foot1 p
+{
+    width:100%;
+     line-height: 20px;
+}  
+.logofoot
+{
+    width:220px;
+    height: 180px;
+}
+.logos
+{
+    display: none;
+}
+}
+/* For Tablet Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 768px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 16px;
+      padding-left: 12px;
+    padding-right:12px;
+}
+/*Banner Section*/
+.banner h1
+{
+    font-size: 32px;
+    font-weight: 400;
+    padding:20px;
+    padding-top: 40px;
+}
+.banner p 
+{
+    font-size: 14px;
+    font-weight: 250;
+    padding: 20px;
+    line-height: 30px;
+}
+/* Overlapping Tab Section */
+  
+
+
+.otab1
+{
+    width:15%;
+    padding:10px;
+}
+
+.otab1 h1
+{
+font-size: 22px;
+padding:7px;
+}
+.otab1 p 
+{
+font-size: 16px;
+padding:7px;
+}
+.otabs 
+{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+position: relative;
+bottom: 30px;
+left: 10px;
+}
+
+.story
+{  
+    width:100%;
+    background-color: white;
+    display:flex;
+    gap:1%;
+}
+.scol1 
+{
+    width: 40%;
+    padding: 10px;
+}
+.scol1 h2
+{
+    font-family: 'Oswald';
+    font-size: 28px;
+    font-weight: 400;
+    padding: 10px;
+    
+}
+.scol1 p
+{
+    font-family: 'Oswald';
+    font-size: 16px;
+    font-weight: 250;
+    padding: 10px;
+    
+}
+.scol2
+{
+    width:28%;
+}
+.scol2>img
+{
+    width:100%;
+    height:350px;
+}
+.scol3
+{
+    width:30%;
+    padding-top: 8%;
+}
+.scol3>img
+{
+    width:100%;
+    height:200px;
+}
+    .mv
+{
+    display : flex;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:20px;
+}
+    .core
+{
+   width:100%;
+}
+.core h1
+{
+    
+    
+    font-size: 28px;
+    font-weight: 400;
+    padding: 10px;
+}
+.value>img
+{
+    width: 80px;
+    height:80px;
+}
+.value h3
+{
+     font-family: 'Inter';
+    
+    font-size: 10px;
+    font-weight: 400;
+    padding: 10px;
+}
+.value p 
+{
+ font-family: 'Inter';
+    
+    font-size: 8px;
+    font-weight: 400;
+    padding: 10px;
+    text-align: left;;
+}
+.value 
+{ 
+    width:20%;
+    border: 2px solid  ;
+    border-color:rgb(202, 132, 3) ;
+    border-radius: 14px;
+}
+.values
+{
+    display: flex;
+    gap:1%;
+    justify-content: center;
+    align-items: center;
+}
+.team
+{
+width:100%;
+}
+.myteam
+{
+    display: flex;
+      flex-wrap: wrap;
+    gap:2%;
+    justify-content: center;
+    align-items: center;
+}
+.team1>img 
+{
+    width: 100px;
+    height:100px;
+    border-radius: 50px;
+}
+.team1 h3
+{
+     font-family: 'Inter';
+    
+    font-size: 18px;
+    font-weight: 400;
+    padding: 7px;
+}
+.team1 p 
+{
+ font-family: 'Inter';
+    
+    font-size: 12px;
+    font-weight: 400;
+    
+    text-align: center;
+}
+.team
+{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.team h1
+{
+     font-family: 'Oswald';
+    
+    font-size: 22px;
+    font-weight: 400;
+    padding: 7px;
+}
+.team p 
+{
+ font-family: 'Oswald';
+    
+    font-size: 16px;
+    font-weight: 300;
+    
+    text-align: center;
+}
+
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    width:40%;
+}
+.foot 
+{
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot1 p 
+{
+    font-size: 12px;
+}
+.logos
+{
+    display: none;
+}
+
+}
+/* For Large Mobile Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 426px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 16px;
+      padding-left: 12px;
+    padding-right:12px;
+}
+.header1
+{
+    display: block;
+}
+/*Banner Section*/
+.banner h1
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding:10px;
+    padding-top: 20px;
+}
+.banner p 
+{
+    font-size: 14px;
+    font-weight: 250;
+    padding: 20px;
+    line-height: 24px;
+}
+
+/* Overlap tab */
+
+.otab1 h1
+{
+font-size: 12px;
+padding:1px;
+}
+.otab1 p 
+{
+font-size: 10px;
+padding:1px;
+}
+.otabs 
+{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+position: relative;
+bottom: 10px;
+left: 25px;
+}
+
+/*Before Footer Section*/
+
+.btn1
+{
+    margin:30px;
+}
+.beforefoot h2
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 15px;
+}
+.beforefoot p
+{
+    padding:15px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 18px;
+}
+.listview>ul
+{
+    font-size: 15px;
+    justify-content: space-around;
+}
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    display: none;
+}
+.foot 
+{
+    justify-content:center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap:20px;
+}
+.logos
+{
+    display:inline-block;
+}
+} 
+
+/* For Small Mobile Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 320px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 12px;
+      padding-left: 10px;
+    padding-right:10px;
+}
+.header1
+{
+    display: block;
+}
+.btn button
+{
+    font-size: 10px;
+}
+/*Banner Section*/
+.banner h1
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding:10px;
+    padding-top: 20px;
+}
+.banner p 
+{
+    font-size: 12px;
+    font-weight: 250;
+    padding: 20px;
+    line-height: 24px;
+}
+.story
+{  
+    width:100%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    gap:1%;
+}
+.scol1
+{
+    width:80%;
+} 
+.scol2
+{
+    width:80%;
+} 
+.scol3
+{
+    width:80%;
+} 
+.mv
+{
+    display : flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+    padding:20px;
+}
+.vission
+{
+    width:90%;
+    font-size: smaller;
+}
+.mission
+{
+    width:90%;
+    font-size: smaller;
+}
+} 

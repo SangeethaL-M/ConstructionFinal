@@ -1,0 +1,605 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+.overall
+{
+    width:95%;
+    margin: auto;
+}
+body
+{
+    background-color: black;
+}
+.header
+{
+    width:100%;
+   background-color: white;
+   
+}
+.header1
+{
+     display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    font-family: 'Oswald';
+    font-size: 20px;
+   
+}
+.size
+{
+    width: 140px;
+    height: 90px;
+}
+.logo
+{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+.navbar
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navbar a
+{
+    display: inline;
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.btn button
+{
+    background-color: orange;
+    padding: 10px 20px 8px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.btn button>span
+{
+    background-color: white;
+    border-radius:18px ;
+    padding: 5px 10px;
+}
+.left
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn
+{
+    margin-right: 20px;
+}
+
+/*Banner Section*/
+.bannercontent
+{
+    background-image: url('/Assets/Images/croppedimg.png');
+     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg.png');
+    width:100%;
+    height: 40vh;
+    text-align: center;
+    justify-content: center;
+}
+.bannercontent h1
+{
+    color:rgb(224, 210, 17);
+    font-family: 'Oswald';
+    font-size: 34px;
+    font-weight: 400;
+    padding:30px;
+    padding-top: 50px;
+}
+.bannercontent p 
+{
+    color:white;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 250;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 30px;
+    word-spacing: 2px;
+}
+
+
+/*Services*/
+.sec1
+{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.im1
+{
+    width:50%;
+    padding: 20px;
+    margin:20px;
+}
+.im1>img
+{
+    width:100%;
+    height: 70vh;
+    border-radius: 12px;
+}
+.cont1
+{
+    width:50%;
+     padding: 20px;
+    margin:20px;
+    line-height: 42px;
+    font-size: large;
+}
+.cont1>ul>li::marker
+{
+    color: orange;
+}
+.serve
+{
+width:100%;
+background-color: white;
+}
+.btn
+{
+padding-top: 20px;
+}
+
+/*Before Footer*/
+
+.beforefoot
+{
+   
+    background-image: url('/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    width:100%;
+    height:60vh;
+   text-align: center;
+    justify-content: center;
+}
+.btn1
+{
+    margin:30px;
+}
+.btn1 button
+{
+    background-color: orange;
+    padding: 14px 18px 8px 14px;
+    border: none;
+    border-radius: 30px;
+}
+.btn1 button>span
+{
+    background-color: white;
+    border-radius:20px ;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+.beforefoot h2
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.beforefoot p
+{
+    padding:20px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 22px;
+}
+
+.listview
+{
+    padding:30px;
+}
+.listview>ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: center;
+    gap:5%;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.listview>ul>li::marker
+{
+    color:orange;
+}
+
+/*White space*/
+
+.blank
+{
+    background-color:white;
+    width:100%;
+    height:8vh;
+
+}
+
+/*Footer Section*/
+
+.logofoot
+{
+    width:350px;
+    height: 230px;
+}
+.foot 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width:100%;
+   background-color:  rgb(4, 4, 49);
+    height: 45vh;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 80px;
+}
+.foot p
+{
+    font-size: 16px;
+    color:whitesmoke;
+    line-height: 40px;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+.foot h4
+{
+    color:whitesmoke;
+     line-height: 40px;
+     font-size: 20px;
+     font-family: 'Oswald';
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.foot1
+{
+    width:30%;
+    margin-bottom: 10px;
+}
+.foot1 p
+{
+    width:100%;
+     line-height: 30px;
+}
+
+
+/* For Desktop Devices */
+/*------------------------- */
+@media only screen and (min-width: 1440px)
+{
+.logos
+{
+    display: none;
+}
+}
+/* For Laptop Devices */
+/*------------------------- */
+
+/*Footer Section*/
+@media only screen and (max-width: 1024px)
+{
+  .foot 
+{
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot p
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+.foot h4
+{
+     line-height: 30px;
+     font-size: 14px;
+    padding-bottom: 10px;
+}
+.foot1
+{
+    width:25%;
+    padding-bottom: 5px;
+}
+.foot1 p
+{
+    width:100%;
+     line-height: 20px;
+}  
+.logofoot
+{
+    width:220px;
+    height: 180px;
+}
+.logos
+{
+    display: none;
+}
+}
+
+/* For Tablet Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 768px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 16px;
+      padding-left: 12px;
+    padding-right:12px;
+}
+/*Banner Section*/
+.bannercontent h1
+{
+    font-size: 32px;
+    font-weight: 400;
+    padding:20px;
+    padding-top: 40px;
+}
+.bannercontent p 
+{
+    font-size: 14px;
+    font-weight: 250;
+    padding: 20px;
+    line-height: 30px;
+}
+/*Services*/
+
+.im1
+{
+    
+    padding: 10px;
+    margin:10px;
+}
+.im1>img
+{
+    
+    height: 60vh;
+    border-radius: 12px;
+}
+.cont1
+{
+    
+     padding: 10px;
+    margin:10px;
+    line-height: 32px;
+    font-size:medium;
+}
+.btn
+{
+padding-top: 10px;
+}
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    width:40%;
+}
+.foot 
+{
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot1 p 
+{
+    font-size: 12px;
+}
+.logos
+{
+    display: none;
+}
+} 
+
+
+/* For Large Mobile Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 426px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 16px;
+      padding-left: 12px;
+    padding-right:12px;
+}
+.header1
+{
+    display: block;
+}
+/*Banner Section*/
+.bannercontent h1
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding:10px;
+    padding-top: 20px;
+}
+.bannercontent p 
+{
+    font-size: 14px;
+    font-weight: 250;
+    padding: 20px;
+    line-height: 24px;
+}
+/*Services*/
+.sec1
+{
+    display: inline-block;
+   
+    justify-content: center;
+    align-items: center;
+}
+.im1
+{
+    width:100%;
+    padding: 20px;
+    
+}
+.im1>img
+{
+    width:100%;
+    height: 60vh;
+    border-radius: 12px;
+}
+.cont1
+{
+    width:100%;
+     padding: 20px;
+    
+    line-height: 30px;
+    font-size:medium;
+}
+
+.serve
+{
+width:100%;
+}
+.btn
+{
+padding-top: 10px;
+}
+/*Before Footer Section*/
+
+.btn1
+{
+    margin:30px;
+}
+.beforefoot h2
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 15px;
+}
+.beforefoot p
+{
+    padding:15px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 18px;
+}
+.listview>ul
+{
+    font-size: 15px;
+    justify-content: space-around;
+}
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    display: none;
+}
+.foot 
+{
+    justify-content:center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap:20px;
+}
+.logos
+{
+    display:inline-block;
+}
+} 
+
+
+/* For Small Mobile Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 320px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 12px;
+      padding-left: 10px;
+    padding-right:10px;
+}
+.header1
+{
+    display: block;
+}
+.btn button
+{
+    font-size: 10px;
+}
+/*Banner Section*/
+.bannercontent h1
+{
+    font-size: 24px;
+    font-weight: 400;
+    padding:10px;
+    padding-top: 20px;
+}
+.bannercontent p 
+{
+    font-size: 12px;
+    font-weight: 250;
+    padding: 20px;
+    line-height: 24px;
+}
+} 

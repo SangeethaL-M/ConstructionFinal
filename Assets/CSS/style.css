@@ -1,0 +1,1521 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+}
+.overall
+{
+    width:95%;
+    margin: auto;
+}
+body
+{
+    background-color: black;
+}
+.header
+{
+    width:100%;
+   background-color: white;
+   
+}
+.header1
+{
+     display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    font-family: 'Oswald';
+    font-size: 20px;
+   
+}
+.size
+{
+    width: 140px;
+    height: 90px;
+}
+.logo
+{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 20px;
+}
+.navbar
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.navbar a
+{
+    display: inline;
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+}
+.btn button
+{
+    background-color: orange;
+    padding: 10px 20px 8px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.btn button>span
+{
+    background-color: white;
+    border-radius:18px ;
+    padding: 5px 10px;
+}
+.left
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn
+{
+    margin-right: 20px;
+}
+/*Banner Content*/
+.bannercontentabs
+{
+    position:absolute;
+    width:95%;
+    
+}
+.bannercontent2
+{
+    position:relative;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items:center;
+    height: 80vh;
+     color: white;
+     background: rgba(0, 0, 0, 0.3);
+    
+}
+.bannercontent1
+{
+    width:100%;
+    height: 80vh;
+    margin:auto;
+    overflow:hidden;
+}
+.bannercontent1>img
+{
+    animation-name: bannerimg;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.style1
+{
+    font-family: 'Inter' ; 
+    font-weight: 300;
+}
+.bannercontentcol1>p
+{
+    width: 700px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Inter';
+    line-height: 28px;
+}
+.bannercontentcol1>h1
+{
+    
+    font-family: 'Oswald';
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.bannercontentcol2
+{
+     width: 400px;
+   display: flex;
+   flex-direction: column;
+   border: 2px solid yellow;
+   justify-content: center;     
+    align-items: center;         
+    padding: 50px;
+  margin: 10px;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Inter';
+  font-size: 18px;
+   background: rgba(117, 110, 110, 0.3);
+}
+form
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+   gap: 10px;
+   margin-bottom: 20px;
+    margin-top: 20px;
+}
+.bannercontentcol2 form>input,select
+{
+    width:350px;
+    height:7vh;
+    border-radius: 10px;
+    border: none;
+}
+.bannercontent
+{
+    width:100%;
+}
+
+@keyframes bannerimg
+{
+    0%{transform: scale(1.0);}
+    
+    50%{transform: scale(1.3);}
+    
+    100%{transform: scale(1.0);}
+}
+
+/*Service Section*/
+
+.services
+{
+    background-color: white;
+    width:100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.servicesrow
+{
+    margin : 30px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+}
+.servicecard
+{
+    width:28%;
+    margin:20px 0px;
+}
+.servicecard>img
+{
+    width:100%;
+    height:48vh;
+}
+
+/* Emoji Section */
+
+.emojisec
+{
+    background-color: rgba(2, 2, 29, 0.995);
+    width:100%;
+    height: 32vh;
+    display: flex;
+    text-align: left;
+    padding-top: 10px;
+}
+.emojisec
+{
+    font-size: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.esec h3
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 28px;
+    padding: 20px;
+    color:rgb(224, 210, 17);
+}
+.esec p
+{
+     padding:20px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 18px;
+    color: white;
+}
+.esec
+{
+    padding-left: 10%;
+}
+
+/*Choose Cards Section*/
+.choose
+{
+    width:100%;
+    height: 85vh;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.choosecards
+{
+    display:flex;
+   
+}
+.icon
+{   
+    width:40px;
+height:40px;
+font-size: 24px;
+
+text-align: center;
+    border: 2px solid rgb(231, 164, 39);
+    border-radius: 4px;
+   background-color : rgb(231, 164, 39);
+   color:white;
+}
+.choosecards
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    gap:30px 20px;
+    
+}
+.choose h2
+{
+    font-family: 'Oswald';
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.choose p
+{
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 120;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.chcard h2
+{
+    font-family: 'Oswald';
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.chcard p
+{
+    font-family: 'Oswald';
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     font-weight: 100;
+}
+.chcard
+{
+    display: block;
+    text-align: left;
+    padding:20px;
+width:30%;
+border:1px solid rgb(231, 164, 39);
+}
+/*Virtual Reality*/
+.reality
+{
+    width:100%;
+    height: 80vh;
+    background-image: url('/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    display:flex;
+    flex-direction: row;
+    
+}
+.realitycol1
+{
+   padding:20px;
+   padding-left: 40px;
+    width:50%;
+    justify-content: left;
+}
+.realitycol1 h1
+{
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 300;
+    color:white;
+    padding: 20px;
+}
+.realitycol1 p 
+{
+font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 300;
+    color:white;
+    padding: 20px;
+    line-height: 30px;
+}
+.btn button
+{
+    background-color: orange;
+    padding: 10px 20px 8px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.btn button>span
+{
+    background-color: white;
+    border-radius:18px ;
+    padding: 5px 10px;
+}
+.realitycol1>ul
+{
+    display: flex;
+   flex-direction: column;
+    color:white;
+    justify-content: left;
+    gap:5%;
+    font-family: 'Inter';
+    font-size: 18px;
+padding: 20px;
+line-height: 42px;
+}
+.realitycol1>ul>li::marker
+{
+    color:orange;
+}
+.realitycol2>img
+{
+    width: 600px;
+    height: 450px;
+    border-radius: 12px;
+    padding: 30px;
+}
+.realitycol2
+{
+    align-content: center;
+}
+/*Works*/
+.works
+{
+    width:100%;
+    background-color: white;
+    text-align: center;
+    padding:20px;
+}
+.work1
+{
+    display:flex;
+    justify-content: center;
+    gap:2%;
+}
+.works h1
+{
+    font-family: 'Oswald';
+    font-size: 32px;
+    font-weight: 500;
+}
+.works p
+{
+    font-family: 'Inter';
+    font-size: 17px;
+    font-weight: 200;
+}
+.art 
+{
+    width:40%;
+    padding:20px;
+}
+.art>img
+{
+    width: 100%;
+    height:40vh;
+}
+.content 
+{
+    width:40%;
+    padding:20px;
+    font-family: 'Inter';
+    text-align: left;
+}
+.content h3
+{
+    color:orange;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 2%;
+}
+.content p
+{
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 2%;
+
+}
+/*Clients*/
+.client
+{
+    width:100%;
+    height:80vh;
+     background-color:  rgb(4, 4, 49);
+     
+     display:flex;
+     flex-direction: column;
+     
+     
+}
+.cl
+{
+    text-align: center;
+    font-family: 'Oswald';
+    
+     padding: 30px;
+     color:white;
+}
+.cl h1
+{
+    font-size: 32px;
+    font-weight:400 ;
+    padding:10px;
+}
+.cl p
+{
+    font-size: 20px;
+    font-weight:100 ;
+    padding: 20px;
+}
+.client1
+{
+    background: rgb(93, 93, 96) ;
+    width:60%;
+    padding: 20px;
+    border-radius: 15px;
+   text-align: left;
+}
+.name>img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.client2
+{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 15%;
+    padding-left: 15%;
+    padding-top: 20px;
+}
+.client2 h1
+{
+    color: rgb(178, 155, 7);
+}
+.client2 p
+{
+    color:white;
+    padding: 10px;
+}
+.client1a
+{
+    padding-left: 28%;
+}
+.client1 h1
+{
+   color: rgb(178, 155, 7);
+   font-size: 36px;
+}
+.client1 p 
+{
+   color: white;
+   font-size: 16px;
+}
+.name h3
+{
+    color:white;
+}
+
+/*Banking*/
+.bank
+{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.bank1
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:1%;
+}
+.bank1a>img
+{
+    width: 100%;
+    height:20vh ;
+    border:2px solid gray;
+}
+
+/*Before Footer*/
+
+.beforefoot
+{
+   
+    background-image: url('/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    width:100%;
+    height:60vh;
+   text-align: center;
+    justify-content: center;
+}
+.btn1
+{
+    margin:30px;
+}
+.btn1 button
+{
+    background-color: orange;
+    padding: 14px 18px 8px 14px;
+    border: none;
+    border-radius: 30px;
+}
+.btn1 button>span
+{
+    background-color: white;
+    border-radius:20px ;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+.beforefoot h2
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.beforefoot p
+{
+    padding:20px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 22px;
+}
+
+.listview
+{
+    padding:30px;
+}
+.listview>ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+    justify-content: center;
+    gap:5%;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+.listview>ul>li::marker
+{
+    color:orange;
+}
+
+/*White space*/
+
+.blank
+{
+    background-color:white;
+    width:100%;
+    height:8vh;
+
+}
+
+/*Footer Section*/
+
+.logofoot
+{
+    width:350px;
+    height: 230px;
+}
+.foot 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width:100%;
+   background-color:  rgb(4, 4, 49);
+    height: 45vh;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 80px;
+}
+.foot p
+{
+    font-size: 16px;
+    color:whitesmoke;
+    line-height: 40px;
+    font-family: 'Inter';
+    font-weight: 200;
+}
+.foot h4
+{
+    color:whitesmoke;
+     line-height: 40px;
+     font-size: 20px;
+     font-family: 'Oswald';
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.foot1
+{
+    width:30%;
+    margin-bottom: 10px;
+}
+.foot1 p
+{
+    width:100%;
+     line-height: 30px;
+}
+
+
+
+
+
+/*New Media Query*/
+/* For Desktop Devices */
+/*------------------------- */
+@media only screen and (min-width: 1440px)
+{
+.logos
+{
+    display: none;
+}
+
+}
+/* For Laptop Devices */
+/*------------------------- */
+
+/*Footer Section*/
+@media only screen and (max-width: 1024px)
+{
+  .foot 
+{
+    
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot p
+{
+    font-size: 14px;
+    line-height: 30px;
+}
+.foot h4
+{
+     line-height: 30px;
+     font-size: 14px;
+    padding-bottom: 10px;
+}
+.foot1
+{
+    width:25%;
+    padding-bottom: 5px;
+}
+.foot1 p
+{
+    width:100%;
+     line-height: 20px;
+}  
+.logofoot
+{
+    width:220px;
+    height: 180px;
+}
+.logos
+{
+    display: none;
+}
+/*Banner Section*/
+.bannercontentcol1>p
+{
+    width: 400px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 15px;    
+}
+.bannercontentcol1>h1
+{    
+    font-size: 24px;
+}
+.bannercontentcol2 form>input,select
+{
+    width:250px;
+    height:3vh;
+}
+form
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+   gap: 4px;
+   margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bannercontentcol2
+{
+     width: 300px;
+   justify-content: center;     
+    align-items: center;         
+    padding: 20px;
+ 
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+    font-size: 14px;
+   
+}
+}
+
+/* For Tablet Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 768px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 16px;
+      padding-left: 12px;
+    padding-right:12px;
+}
+/* Banner Section*/
+
+.bannercontent2
+{
+    display:block;
+}
+.bannercontentcol2
+{
+    display: block;
+}
+.bannercontentcol1>p
+{
+    width: 500px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 10px;    
+}
+.bannercontentcol1>h1
+{    
+    font-size: 24px;
+}
+.bannercontentcol2 form>input,select
+{
+    width:200px;
+    height:3vh;
+}
+form
+{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+   gap: 5px;
+   margin-bottom: 10px;
+    margin-top: 10px;
+}
+.bannercontentcol2
+{
+     width: 300px;
+   justify-content: center;     
+    align-items: center;         
+    padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+    font-size: 14px;
+   
+}
+/*Emoji Section */
+.esec h3
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 24px;
+    padding: 10px;
+    color:rgb(224, 210, 17);
+}
+.esec p
+{
+     padding:10px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 14px;
+    color: white;
+}
+.esec
+{
+    padding-left: 10%;
+}
+/*Choose Card Section*/
+
+.choose
+{
+    width:100%;
+    height: 85vh;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+.choosecards
+{
+    display:flex;
+   
+}
+.icon
+{   
+    width:40px;
+height:40px;
+font-size: 24px;
+
+text-align: center;
+    border: 2px solid rgb(231, 164, 39);
+    border-radius: 4px;
+   background-color : rgb(231, 164, 39);
+   color:white;
+}
+.choosecards
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    gap:10px 10px;
+    
+}
+.choose h2
+{
+   
+    font-size: 22px;
+   
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.choose p
+{
+   
+    font-size: 16px;
+   
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.chcard h2
+{
+    
+    font-size: 22px;
+    
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.chcard p
+{
+   
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+}
+.chcard
+{
+    padding:10px;
+width:30%;
+
+}
+/*Virtual Reality*/
+.reality
+{
+    width:100%;
+    height: 80vh;
+    background-image: url('/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    display:flex;
+    flex-direction: row;
+    
+}
+.realitycol1
+{
+   padding:10px;
+   padding-left: 20px;
+    width:50%;
+    justify-content: left;
+}
+.realitycol1 h1
+{
+    font-family: 'Oswald';
+    font-size: 26px;
+    font-weight: 300;
+    color:white;
+    padding: 10px;
+}
+.realitycol1 p 
+{
+font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 300;
+    color:white;
+    padding: 10px;
+    line-height: 20px;
+}
+.btn button
+{
+    background-color: orange;
+    padding: 10px 20px 8px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.btn button>span
+{
+    background-color: white;
+    border-radius:18px ;
+    padding: 5px 10px;
+}
+.realitycol1>ul
+{
+    display: flex;
+   flex-direction: column;
+    color:white;
+    justify-content: left;
+    gap:2%;
+    font-family: 'Inter';
+    font-size: 14px;
+padding: 10px;
+line-height: 30px;
+}
+.realitycol1>ul>li::marker
+{
+    color:orange;
+}
+.realitycol2>img
+{
+    width: 400px;
+    height: 250px;
+    border-radius: 12px;
+    padding: 10px;
+}
+.realitycol2
+{
+    align-content: center;
+}
+
+/*Clients*/
+
+
+.cl
+{
+    
+     padding: 10px;
+     
+}
+.cl h1
+{
+    font-size: 22px;
+    font-weight:400 ;
+    padding:5px;
+}
+.cl p
+{
+    font-size: 10px;
+    font-weight:100 ;
+    padding: 10px;
+}
+
+.client2
+{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 15%;
+    padding-left: 15%;
+    padding-top: 20px;
+}
+
+.client2 p
+{
+    
+    padding: 5px;
+}
+.client1a
+{
+    padding-left: 28%;
+}
+.client1 h1
+{
+  
+   font-size: 24px;
+}
+.client1 p 
+{
+   color: white;
+   font-size: 8px;
+}
+
+
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    width:40%;
+}
+.foot 
+{
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot1 p 
+{
+    font-size: 12px;
+}
+.logos
+{
+    display: none;
+}
+} 
+
+
+/* For Large Mobile Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 426px)
+{
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 16px;
+      padding-left: 12px;
+    padding-right:12px;
+}
+.header1
+{
+    display: block;
+}
+/* Service */
+.servicecard
+{
+    width:100%;
+}
+/*Banner Section*/
+.bannercontent2
+{
+    display:block;
+}
+.bannercontentcol2
+{
+    display: block;
+     width: 250px;
+}
+.btn button
+{
+    font-size: 10px;
+}
+.bannercontentcol1 p 
+{
+    display: none;
+}
+.bannercontentcol1 h1 
+{
+    padding-top: 30px;
+}
+.bannercontent
+{
+    width:100%;
+}
+/* Emoji Section */
+.emojisec
+{
+    width:100%;
+    display:block;
+    text-align: center;
+}
+.emoji
+{
+    font-size: 60px;
+}
+.esec h3
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 22px;
+    padding: 10px;
+    color:rgb(224, 210, 17);
+}
+.esec p
+{
+    display: none;
+}
+.esec
+{
+    padding-left: 10%;
+}
+
+/*Choose Cards Section*/
+/*Choose Card Section*/
+
+.choose
+{
+   
+    padding: 10px;
+}
+.choosecards
+{
+    display:flex;
+   
+}
+.icon
+{   
+    width:20px;
+height:20px;
+font-size: 12px;
+
+
+    border-radius: 1px;
+   
+}
+.choosecards
+{
+    
+    padding-top: 5px;
+    gap:5px 5px;
+    
+}
+.choose h2
+{
+   
+    font-size: 18px;
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.choose p
+{
+   
+    font-size: 13px;
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.chcard h2
+{
+    
+    font-size: 18px;
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.chcard p
+{
+   
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.chcard
+{
+    padding:5px;
+width:30%;
+
+}
+/*Virtual Reality*/
+.reality
+{
+    width:100%;
+    height: 80vh;
+    background-image: url('/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    display:flex;
+    flex-direction: column;
+    
+}
+.realitycol1
+{
+   padding:5px;
+   padding-left: 10px;
+    width:90%;
+    justify-content: center;
+}
+.realitycol1 h1
+{
+    font-family: 'Oswald';
+    font-size: 22px;
+    font-weight: 300;
+    color:white;
+    padding: 20px;
+}
+.realitycol1 p 
+{
+font-family: 'Inter';
+    font-size: 12px;
+    font-weight: 300;
+    color:white;
+    padding: 5px;
+    line-height: 20px;
+}
+.btn button
+{
+    background-color: orange;
+    padding: 10px 20px 8px 10px;
+    border: none;
+    border-radius: 30px;
+}
+.btn button>span
+{
+    background-color: white;
+    border-radius:18px ;
+    padding: 5px 10px;
+}
+.realitycol1>ul
+{
+    display: flex;
+   flex-direction: column;
+    color:white;
+    justify-content: left;
+    gap:2%;
+    font-family: 'Inter';
+    font-size: 12px;
+padding: 5px;
+line-height: 20px;
+}
+
+.realitycol2>img
+{
+    width: 350px;
+    height: 200px;
+    border-radius: 6px;
+    padding: 10px;
+}
+.realitycol2
+{
+    align-content: center;
+}
+/*Works*/
+.work1
+{
+    display: block;
+}
+.art
+{
+width:100%;
+
+}
+.content
+{
+    width:100%;
+}
+/*Client*/
+.client2
+{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 8%;
+    padding-left: 8%;
+    padding-top: 10px;
+}
+.client2 h1
+{
+    font-size: 20px;    
+}
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    width:40%;
+}
+.foot 
+{
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 60px;
+}
+.foot1 p 
+{
+    font-size: 12px;
+}
+.logos
+{
+    display: none;
+}
+/*Before Footer Section*/
+
+.btn1
+{
+    margin:30px;
+}
+.beforefoot h2
+{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 26px;
+    padding-top: 15px;
+}
+.beforefoot p
+{
+    padding:15px;
+    font-family: 'Inter';
+    font-weight: 250;
+    font-size: 18px;
+}
+.listview>ul
+{
+    font-size: 15px;
+    justify-content: space-around;
+}
+/*Footer Section*/
+.foot2
+{
+    display: none;
+}
+.foot3
+{
+    display:none;
+}
+.foot1
+{
+    display: none;
+}
+.foot 
+{
+    justify-content:center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap:20px;
+}
+.logos
+{
+    display:inline-block;
+}
+} 
+
+
+/* For Small Mobile Devices */
+/*------------------------- */
+
+/* Navbar section */
+
+
+@media only screen and (max-width: 320px)
+{
+    /*Navbar*/
+.logo
+{
+    display: flex;
+}
+.size{
+    width: 80px;
+    height: 50px;
+}
+.navbar a 
+{
+    font-size: 12px;
+      padding-left: 10px;
+    padding-right:10px;
+}
+.header1
+{
+    display: block;
+}
+.btn button
+{
+    font-size: 10px;
+}
+/*Banner Section*/
+.bannercontent2
+{
+    display:block;
+}
+.bannercontentcol2
+{
+    display: block;
+}
+/*Virtual Reality*/
+.realitycol2>img
+{
+    width: 270px;
+    height: 160px;
+    border-radius: 6px;
+    padding: 5px;
+}
+/*Client*/
+.client2
+{
+    display:flex;
+    flex-direction: row;
+    
+    gap: 5%;
+    
+    padding-top: 10px;
+}
+.client2 h1
+{
+    font-size: 16px;    
+}
+.client2 p 
+{
+    font-size: 10px;
+}
+} 
