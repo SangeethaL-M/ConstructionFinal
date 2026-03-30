@@ -81,8 +81,8 @@ body
 /*Banner Section*/
 .banner
 {
-    background-image: url('/Assets/Images/cropimg3.png');
-     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/cropimg3.png');
+    background-image: url('/ConstructionFinal/Assets/Images/cropimg3.png');
+     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/ConstructionFinal/Assets/Images/cropimg3.png');
     width:100%;
     height: 40vh;
     text-align: center;
@@ -240,8 +240,8 @@ form
 .beforefoot
 {
    
-    background-image: url('/Assets/Images/croppedimg2.png');
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/Assets/Images/croppedimg2.png');
+    background-image: url('/ConstructionFinal/Assets/Images/croppedimg2.png');
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/ConstructionFinal/Assets/Images/croppedimg2.png');
     width:100%;
     height:60vh;
    text-align: center;
